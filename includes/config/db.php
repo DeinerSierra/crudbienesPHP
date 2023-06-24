@@ -1,9 +1,9 @@
 <?php
 function conectarDB(){
-    $host = 'localhost'; // Por lo general, 'localhost'
+    $host = 'containers-us-west-196.railway.app'; // Por lo general, 'localhost'
     $usuario = 'root';
-    $contrasena = '123456';
-    $nombreBaseDatos = 'bienesraices2023_crud';
+    $contrasena = 'MfGzb4reK7hp1QrH736S';
+    $nombreBaseDatos = 'railway';
      // Crear una conexión
      $db = new mysqli($host, $usuario, $contrasena, $nombreBaseDatos);
 
